@@ -9,6 +9,7 @@
     ~/.dotfiles: ''
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/plugins/zsh-syntax-highlighting
     ~/.zsh: zsh
     ~/.zshrc: zshrc
 
