@@ -26,25 +26,25 @@ Any dependencies not already being handled by a package manager (e.g. zsh plugin
 Anything included as a git submodule will be updated to the latest version and symlinked into place by the install script. After running the install script, it's good practice, therefore, to `git commit` and `git push` back to origin with these changes. This will help ensure that the submodule versions in master repo don't get too ancient.
 
 
-Adding a submodule (example):
+### Adding a submodule (example):
 ```
 git submodule add https://github.com/djui/alias-tips zsh/plugins/alias-tips
 ```
 
-Linking a submodule (in install.conf.yaml):
+### Linking a submodule (in install.conf.yaml):
 ```
 - link:
     ~/.oh-my-zsh/custom/plugins/alias-tips: zsh/plugins/alias-tips
 ```
 
-Removing a submodule (example):
+### Removing a submodule (example):
 ```
-git rm... (look this up)
+(look this up -- it's like 'git rm... something or other')
 ```
 
 ## To Do
 - [x] Figure out why zsh submodules aren't installing correctly. Must be doing something wrong.
-- [ ] Figure out proper procedure for removing a submodule.
+- [ ] Figure out proper procedure for removing a submodule & update README.
 - [ ] Include additional install scripts for apps and utilities handled by brew and brew-cask, and to optimize various OS X settings.
 - [ ] Massively upgrade and refactor my zsh settings.
 - [ ] Upgrade and refactor my git settings
