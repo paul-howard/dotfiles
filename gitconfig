@@ -7,5 +7,6 @@ email = phoward8020+github@gmail.com
 	default = simple
 [core]
 	editor = atom
+	excludesfile = /Users/phoward/.gitignore_global
 [credential]
 	helper = osxkeychain

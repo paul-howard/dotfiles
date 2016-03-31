@@ -1,7 +1,15 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - clean: ['~']
 
 - link:
+    ~/.dotfiles: ''
     ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
+    ~/.zsh: zsh
     ~/.zshrc: zshrc
 
 - shell:
