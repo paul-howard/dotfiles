@@ -20,6 +20,8 @@ Run the install script:
 > cd ~/.dotfiles; ./install
 ```
 
+Anything included as a git submodule (e.g. zsh plugins) will be updated to the latest version by the install script. Therefore, to ensure that the submodule versions in this repo aren't too ancient, it's good practice to `git commit` and `git push` back to origin with the changes.
+
 ## To Do
 - [ ] Include additional install scripts for apps and utilities handled by brew and brew-cask, and to optimize various OS X settings.
 - [ ] Massively upgrade and refactor my zsh settings.
