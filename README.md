@@ -36,7 +36,7 @@ Run the install script:
 ```
 
 ## A Note on Submodules
-Any dependencies not already being handled by a package manager (e.g. zsh plugins/themes) can be added as a git submodule.
+Any dependencies not already being handled by a package manager (e.g., oh-my-zsh plugins and themes) can be added as a git submodule.
 
 Anything included as a git submodule will be updated to the latest version and symlinked into place by the install script. After running the install script, it's good practice, therefore, to `git commit` and `git push` back to origin with these changes. This will help ensure that the submodule versions in master repo don't get too ancient.
 
