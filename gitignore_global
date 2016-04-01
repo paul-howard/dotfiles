@@ -1,27 +1,46 @@
 # https://github.com/github/gitignore/tree/master/Global
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
 
-# Icon must end with two \r
-Icon
+# Editing tools and IDEs #
+##########################
+*.swp
+*~
 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-# Thumbnails
+# OS specific files #
+######################
+
 ._*
-
-# Files that might appear in the root of a volume
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
 .DocumentRevisions-V100
+.DS_Store
+.DS_Store?
 .fseventsd
+.LSOverride
 .Spotlight-V100
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
+ehthumbs.db
+Icon
+Icon?
 Network Trash Folder
 Temporary Items
-.apdisk
+Thumbs.db
