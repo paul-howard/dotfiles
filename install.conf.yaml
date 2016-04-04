@@ -10,6 +10,7 @@
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/plugins/zsh-syntax-highlighting
+    ~/.oh-my-zsh/custom/plugins/alias-tips: zsh/plugins/alias-tips
     ~/.zsh: zsh
     ~/.zshrc: zshrc
 
