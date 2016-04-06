@@ -60,12 +60,31 @@ git submodule add https://github.com/djui/alias-tips zsh/plugins/alias-tips
 ```
 
 ## To Do
-- [x] Figure out why zsh submodules aren't installing correctly. Must be doing something wrong.
-- [ ] Figure out proper procedure for removing a submodule & update README.
-- [ ] Include additional install scripts for apps and utilities handled by brew and brew-cask, and to optimize various OS X settings.
+- [ ] Figure out how to deal with non-admin accounts
+  - [ ] Present opportunity to `su admin` and `sudo visudoers`?
+      - None of this is really viable unless the user is at least in `sudoers`
+- [ ] Bring mackup into the mix
+- [ ] Document proper order
+  - xcode-select Install
+  - os x defaults
+  - brew check/Install
+  - brew $tools-by-type install
+  - brew-cask $tools-by-type install
+  - nvm check/install
+  - node install/config
+  - nvm $tools-by-type install
+  - rvm check/install
+  - ruby install/config
+  - rvm $tools-by-type install
+- [ ] Refactor install script to run scripts/osx First
+  - [ ] Install xcode tools ealry on.
+- [ ] Refactor scripts/osx to use functions and user prompts, a la https://github.com/diimdeep/dotfiles/blob/master/osx/configure/el_capitan/set_osx_defaults
 - [ ] Massively upgrade and refactor my zsh settings.
 - [ ] Upgrade and refactor my git settings
 - [ ] Include atom settings in install script
+- [ ] Figure out proper procedure for removing a submodule & update README.
+- [x] Include additional install scripts for apps and utilities handled by brew and brew-cask, and to optimize various OS X settings.
+- [x] Figure out why zsh submodules aren't installing correctly. Must be doing something wrong.
 
 ## Thanks
 This repo makes use of [dotbot](https://github.com/anishathalye/dotbot) to provide a simple and robust method to easily replicate these files onto any OS X machine.
