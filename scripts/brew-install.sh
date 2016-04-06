@@ -56,6 +56,7 @@ brew install vim
 brew install watch
 brew install watchman
 brew install youtube-dl
+brew install zsh
 
 # Install cask
 # brew install caskroom/cask/brew-cask
@@ -80,6 +81,7 @@ brew cask install duet
 brew cask install evernote
 brew cask install flux
 brew cask install google-chrome
+brew cask install google-chrome-canary
 brew cask install imageoptim
 brew cask install iterm2-beta
 brew cask install itsycal
