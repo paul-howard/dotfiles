@@ -15,7 +15,12 @@ brew update
 brew upgrade --all
 
 # Install formulae
+brew install ack
 brew install archey
+brew install asciinema
+brew install awscli
+brew install casperjs
+brew install chromedriver
 brew install cowsay
 brew install docker
 brew install ffmpeg
@@ -25,57 +30,93 @@ brew install git-extras
 brew install heroku-toolbelt
 brew install htop
 brew install hub
-brew install lame
 brew install legit
-brew install libcaca
-brew install libevent
-brew install libgpg-error
-brew install libksba
-brew install libtool
-brew install libyaml
-brew install lua
 brew install mackup
 brew install macvim
 brew install mariadb
 brew install mongodb
-brew install ncdu
-brew install nginx
 brew install nginx
 brew install nyancat
-brew install openssl
-brew install pcre
-brew install pkg-config
+brew install phantomjs
 brew install postgresql
-brew install readline
 brew install redis
+brew install rename
+brew install rig
 brew install speedtest_cli
+brew install sqlformat
 brew install sqlite
+brew install the_silver_searcher
 brew install thefuck
 brew install tig
 brew install tmux
 brew install toilet
 brew install trash
 brew install tree
-brew install tree
-brew install unar
 brew install vim
 brew install watch
 brew install watchman
-brew install x264
-brew install xvid
 brew install youtube-dl
-
 
 # Install cask
 # brew install caskroom/cask/brew-cask
 
 # Install cask formulae
-brew cask install google-chrome
-brew cask install iterm2
 
-brew cask install dashlane
+brew tap caskroom/versions
+
+brew cask install 1password
+brew cask install alfred
+brew cask install appcleaner
+brew cask install atom
+brew cask install bartender
+brew cask install busycal
+brew cask install busycontacts
+brew cask install couleurs
+brew cask install dash
+brew cask install devonthink-pro-office
+brew cask install dockertoolbox
+brew cask install dropbox
+brew cask install duet
+brew cask install evernote
+brew cask install flux
+brew cask install google-chrome
+brew cask install imageoptim
+brew cask install iterm2
+brew cask install itsycal
+brew cask install lingo
+brew cask install mongochef
+brew cask install moom
+brew cask install postgres
+brew cask install prey
 brew cask install sequel-pro
+brew cask install skyfonts
+brew cask install slack
+brew cask install spillo
+brew cask install superduper
+brew cask install terminology
+brew cask install the-hit-list
+brew cask install transmit
 brew cask install virtualbox
+
+brew cask install betterzipql
+brew cask install qlcolorcode
+brew cask install qlimagesize
+brew cask install qlmarkdown
+brew cask install qlprettypatch
+brew cask install qlstephen
+brew cask install quicklook-csv
+brew cask install quicklook-json
+brew cask install suspicious-package
+
+brew tap caskroom/fonts
+
+brew cask install font-anonymous-pro
+brew cask install font-dejavu-sans
+brew cask install font-hermit
+brew cask install font-inconsolata
+brew cask install font-input
+brew cask install font-source-code-pro
+
 
 # Install `wget` with IRI support.
 # brew install wget --with-iri
