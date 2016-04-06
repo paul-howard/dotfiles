@@ -81,7 +81,7 @@ brew cask install evernote
 brew cask install flux
 brew cask install google-chrome
 brew cask install imageoptim
-brew cask install iterm2
+brew cask install iterm2-beta
 brew cask install itsycal
 brew cask install lingo
 brew cask install mongochef
