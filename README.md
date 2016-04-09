@@ -60,10 +60,14 @@ git submodule add https://github.com/djui/alias-tips zsh/plugins/alias-tips
 ```
 
 ## To Do
+- [ ] Separate brew tools by type ($tools-by-type). Ditto brew-cask.
+- [ ] Add `npm-check` and `space-hogs` (Add `npm-install.sh`?)
 - [ ] Figure out how to deal with non-admin accounts
   - [ ] Present opportunity to `su admin` and `sudo visudoers`?
       - None of this is really viable unless the user is at least in `sudoers`
 - [ ] Bring mackup into the mix
+  - [ ] Figure out which bits are deprecated by mackup
+    - [ ] Make required changes
 - [ ] Document proper order
   - xcode-select Install
   - os x defaults
